@@ -2,11 +2,14 @@
 body{
 	background-color: rgb(135, 206, 235);
 }
-#para1{
+p:first-child{
 	background-color: black;
 	color: white;
 }
-#para4{ 
+p:nth-child(2){
+	color: black;
+}
+p:last-child{ 
 	color:red;
 }
 #li1{
